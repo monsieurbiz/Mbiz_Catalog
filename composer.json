@@ -1,8 +1,8 @@
 {
     "name": "monsieurbiz/mbiz_catalog",
-    "description": "Magento module which improves the catalog (by fixing stuff).",
+    "description": "Magento module which improves the catalog.",
     "type": "magento-module",
-    "license": "GPL-3.0",
+    "license": "MIT",
     "authors": [
         {
             "name": "Jacques Bodin-Hullin",
