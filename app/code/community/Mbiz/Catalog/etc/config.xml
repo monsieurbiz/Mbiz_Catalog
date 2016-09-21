@@ -24,6 +24,10 @@
                         <class>mbiz_catalog/observer</class>
                         <method>applyLayoutHandle</method>
                     </apply_layout_handle>
+                    <add_layout_handle_for_category_level>
+                        <class>mbiz_catalog/observer</class>
+                        <method>addLayoutHandleForCategoryLevel</method>
+                    </add_layout_handle_for_category_level>
                     <mbiz_ajax_add_ajax_handles>
                         <type>disabled</type>
                     </mbiz_ajax_add_ajax_handles>

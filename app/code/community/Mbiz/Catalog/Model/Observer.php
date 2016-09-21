@@ -42,6 +42,20 @@ class Mbiz_Catalog_Model_Observer extends Mage_Core_Model_Abstract
         }
     }
 
+    /**
+     * Add Layout handle for the category level
+     * <p>Only for the category page.</p>
+     */
+    public function addLayoutHandleForCategoryLevel(Varien_Event_Observer $observer)
+    {
+        $action = $observer->getAction();
+
+        if ($action->getFullActionName() === 'catalog_category_view') {
+            $category = Mage::registry('current_category');
+            $observer->getLayout()->getUpdate()->addHandle(sprintf('CATEGORY_LEVEL_' . (string) $category->getLevel()));
+        }
+    }
+
 // Monsieur Biz Tag NEW_METHOD
 
 }
