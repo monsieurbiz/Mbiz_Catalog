@@ -25,7 +25,7 @@
                         <method>applyLayoutHandle</method>
                     </apply_layout_handle>
                     <mbiz_ajax_add_ajax_handles>
-                        <disabled>1</disabled>
+                        <type>disabled</type>
                     </mbiz_ajax_add_ajax_handles>
                 </observers>
             </controller_action_layout_load_before>
