@@ -37,5 +37,10 @@
                 <class>Mbiz_Catalog_Model</class>
             </mbiz_catalog>
         </models>
+        <helpers>
+            <mbiz_catalog>
+                <class>Mbiz_Catalog_Helper</class>
+            </mbiz_catalog>
+        </helpers>
     </global>
 </config>
